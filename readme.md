@@ -14,7 +14,7 @@ The LDA main class expects a plain text file that has one document per line.
 
 Run `sbt assembly`.
 
-Download Spark version 1.5.2 (or later) from [http://spark.apache.org/downloads.html][http://spark.apache.org/downloads.html].
+Download Spark version 1.5.2 (or later) from [http://spark.apache.org/downloads.html](http://spark.apache.org/downloads.html).
 
 Finally you should be able to run the following (Assuming spark/bin is in your PATH):
 
