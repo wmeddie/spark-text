@@ -12,7 +12,11 @@ The LDA main class expects a plain text file that has one document per line.
 
 ## Running
 
-sbt assembly
+Run `sbt assembly`.
+
+Download Spark version 1.5.2 (or later) from [http://spark.apache.org/downloads.html][http://spark.apache.org/downloads.html].
+
+Finally you should be able to run the following (Assuming spark/bin is in your PATH):
 
     spark-submit --master local --class com.yumusoft.spark.Main target/scala-2.10/spark-text-1.0.0-SNAPSHOT.jar
     spark-submit --master local --class com.yumusoft.kuromoji.Main target/scala-2.10/spark-text-1.0.0-SNAPSHORT.jar text.txt
